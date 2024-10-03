@@ -8,8 +8,8 @@ spec:
     image: nginx
     ports:
     - containerPort: 80
- - name: node-api
-    image: ravi2krishna/nodejs-api
+ - name: ubuntu
+    image: ubuntu:22.04
     ports:
-    - containerPort: 8080
+    - containerPort: 22
 
